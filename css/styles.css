@@ -1,0 +1,125 @@
+/*author :Aswathy P/
+/*15/01/2022*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.menu_img{
+	background-image: url("../img/academy-banner.jpg");
+	height: 100vh;
+	top: 12vh;
+
+}
+.feature{
+	position: absolute;
+	top: 180px;
+	left: 40%;
+	bottom: 0;
+	width: 50%;
+    height: 200px;
+
+}
+.height{
+	height: auto;
+	position: relative;
+	margin-top: 60px;
+}
+.feature p::before{
+	content: "{";
+	color:#f00;
+}
+.feature p::after{
+	content: "}";
+	color:#f00;
+}
+
+	.item
+	{
+
+background-image: url("../img/modulebg.jpg");
+	}
+	.vh-50
+	{
+		height: 50vh;
+	}
+	.pic1{
+		background-image: url("../img/testsbg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pic2{
+		background-image: url("../img/intrvwbg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	@media only screen and (max-width: 576px)
+	{
+
+     .menu_img{
+
+		width: 100%;
+		background-image: none;
+		position: relative;
+		height: 90vh;
+		left: -40px;
+		font-size: 60px;
+		
+	}
+	.menu1_img
+	{
+	   position: absolute;
+	   bottom: 60px;
+	   height: 100vh;
+	   text-align: center;
+	   font-size: 60px;
+		
+
+	   
+       
+	}
+	.menuu{
+	}
+	.sub_img{
+		position: relative;
+		height: 100vh;
+	}
+	.sub_img div img{
+		
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.sub_container{
+		position: realative;
+
+	}
+	.feature
+	{
+     position: absolute;
+     width: 100%;
+     left: 0;
+     
+     top: 40vh;
+      font-size: 15px;
+    
+	}
+	.img1{
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: -15px;
+	}
+	
+.height{
+	position: relative;
+	margin-top: 0;
+	height: 75vh;
+	}
+	.item
+	{
+		height: 200vh;
+	}
+
+}
